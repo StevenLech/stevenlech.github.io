@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+/carrots_in_space/Mac.zip filter=lfs diff=lfs merge=lfs -text
+/carrots_in_space/Windows.zip filter=lfs diff=lfs merge=lfs -text
