@@ -1,0 +1,17 @@
+Due to oddities with Mac's file system, there's a chance you may be told the game is "damaged", and cannot be run. 
+
+== TECHNIQUE #1 == 
+In order to make the game runnable on your computer... 
+1) Launch the terminal application. 
+2) type the following command "chmod -R +x" 
+3) Drag the .app file from your finder window into your terminal window. It should now read "chmod -R +x <path to app file>" 
+4) Press enter and hopefully the command works! RIGHT CLICK the app and select "open" to run the game. 
+
+== TECHNIQUE #2 == 
+If technique #1 doesn't work, please use command "xattr -r -d com.apple.quarantine path/to/game.app" in step 4 instead. 
+
+== TECHNIQUE #3 ==
+After originally downloading the .app file...
+1) Move the file out of your downloads folder onto your desktop
+2) Right click the .app file and select "open". If this does not work, right click and select "open" again
+3) A prompt reading "Mac" can't be opened because... appears. Select "open" from this prompt to run the game.
