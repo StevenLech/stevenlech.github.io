@@ -20,9 +20,10 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Introduction</a></li>
-							<li><a href="#one">Carrots In Space</a></li>
-							<li><a href="#two">The Legend Of Zelda - Remaster</a></li>
-							<li><a href="#three">Memory Adventure: A Platforming Game</a></li>
+							<li><a href="#hololens">Fellowship Projects</a></li>
+							<li><a href="#carrots">Carrots In Space</a></li>
+							<li><a href="#zelda">The Legend Of Zelda - Remaster</a></li>
+							<li><a href="#memory">Memory Adventure: A Platforming Game</a></li>
                             <li><a href="#zero">Get In Touch</a></li>
 						</ul>
 					</nav>
@@ -41,8 +42,14 @@
                                 <div>
                                     <ul class="menu">
                                         <li>1839 Cranberry Court - Ann Arbor, MI 48013</li>
-                                        <li>Email: <a href="mailto:stvnlech@umich.edu">stvnlech@umich.edu</a></li>
-                                        <li>Call: <a href="tel:734-478-1358">734-478-1358</a></li>
+                                        <li>
+											<i class="fa fa-envelope"></i>
+											<a href="mailto:stvnlech@umich.edu">stvnlech@umich.edu</a>
+										</li>
+                                        <li>
+											<i class="fa fa-phone"></i>
+											<a href="tel:734-478-1358">734-478-1358</a>
+										</li>
                                     </ul>
                                 </div>
                             </section>
@@ -56,19 +63,154 @@
 							<h1>Technology Used</h1>
 							<p>The core implementation of these projects were through the Unity Game Engine.
 								Unity provides features and mechanics for game design in a more intuitive way.
-								Unity has an integrated drag and drop feature used to help build components on game objects,
-								leading to the final results shown below. The core of Unity comes from the programming
-								language of C#, which complements the Unity reality engine well. Since C# is an object-oriented
-								programming language, it is easily used to implement classes and inheritence used to build game
-								objects with unique features that Unity can display. Enjoy!</p>
+								Unity has an integrated drag and drop feature used to help build components on game 
+								objects, leading to the final results shown below. The core of Unity comes from the
+								programming language of C#, which complements the Unity reality engine well. Since C# is
+								an object-oriented programming language, it is easily used to implement classes and
+								inheritence used to build game objects with unique features that Unity can display.
+								Enjoy!</p>
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+								<li><a href="#hololens" class="button scrolly">Learn more</a></li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
+				<!-- 3D HoloLens project (2023) -->
+				<section id="hololens" class="wrapper style2 spotlights">
+					<section>
+						<div class="content">
+							<div class="inner">
+								<h2>Fellowship Projects Summer/Fall 2023 & Summer 2024 - AR HoloLens Visualization</h2>
+								<p>
+									I worked full time over the summers of 2023 and 2024, and part time in the fall of
+									2023 with the Nuclear Engineering & Radiological Sciences department at the
+									Univerity of Michigan, specifically in the Detection for Neuclear Nonprolifeation
+									Group (DNNG) inside of the Nuclear Engineer and Radiological Sciences (NERS)
+									department. My goals were to create and deploy both a 2D AR visualization app and
+									3D AR voxelization app to the Microsoft HoloLens 2 that supports visualization tools
+									given radiation input data from a provided Handheld Dual-Particle Imager (H2DPI)
+									and a pipelined imaging algorithm.
+								</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<a href="https://gitlab.eecs.umich.edu/umich-dnng/ar-hololens-visualization-2023" class="image">
+							<img src="./images/3d_image.jpg" alt="" data-position="top center"/></a>
+						<div class="content">
+							<div class="inner" style="margin-bottom: 10%;">
+								<h2>3D AR HoloLens 2 Visualization Application:</h2>
+								<body>
+									Visualizes the output of a 3D imaging algorithm found from radiation data acquired
+									by the H2DPI. The visualization is obtained through voxelization of a region of
+									space and the generation of a procedural mesh outlining the desired visualization.
+									If a radiation source is present within the processed area, we visualize each voxel
+									coordinate in order of energy intensity that each coordinate produced.</a>
+									<br />
+								</body>
+							</div>
+						</div>
+					</section>
+					<section>
+						<a href="https://dnng.engin.umich.edu" class="image">
+							<img src="./images/0_percentile_with_borders.jpg" alt="" data-position="top center"/></a>
+						<div class="content">
+							<div class="inner" style="margin-bottom: 10%;">
+								<h2>My Contributions:</h2>
+								<body>
+									I was the lead developer in creating the procedural mesh algorithm used to visualize
+									the presence of a radiation source in this makeshift voxel space. I parsed and
+									visualized the input coordinate data files to produce desired output. I also created
+									a dynamic system that allows for voxelization of any input size that automatically
+									adjusts with no extra user input needed. I worked togeter with three other
+									developers in providing functionality to the application on the HoloLens through
+									Unity and Microsoft's Mixed Reality Toolkit (MRTK). </a>
+									<br />
+								</body>
+							</div>
+						</div>
+					</section>
+					<br/>
+					<div style="margin-left: 25px; margin-right: 25px;">
+						<h3>Additional information:</h3>
+						<body>
+							<li>
+								To examine the project and its source code, click the link
+								<a href="https://gitlab.eecs.umich.edu/umich-dnng/ar-hololens-visualization-2023.git">here</a>
+							</li>
+							<li>
+								You can find my personal documentation of all the contributions I made by clicking the link
+								<a href="https://docs.google.com/document/d/1_pfmN-8MPL1UVxytbYmCSz_Tr1O5w708gxe0vYXw8a4/edit?usp=sharing">here</a>
+							</li>
+							<li>
+								To learn more about the DNNG group, you can click the link provided
+								<a href="https://dnng.engin.umich.edu">here</a>
+							</li>
+						</body>
+						<p></p>
+						<ul class="actions">
+							<li><a href="https://gitlab.eecs.umich.edu/umich-dnng/ar-hololens-visualization-2023.git" class="button">Learn more</a></li>
+						</ul>
+						<br/>
+					</div>
+				</section>
+
+				<!-- 2D 2.0 HoloLens project (2024) -->
+				<!-- <section id="hololens" class="wrapper style2 spotlights">
+					<section>
+						<a href="https://dnng.engin.umich.edu" class="image">
+							<img src="./images/3d_image.jpg" alt="" data-position="top center"/></a>
+						<div class="content">
+							<div class="inner" style="margin-bottom: 10%;">
+								<h2>2D AR HoloLens 2 Visualization Application v2.0:</h2>
+								<body>
+									This is where I will talk about the functionality of the application...</a>
+									<br />
+								</body>
+							</div>
+						</div>
+					</section>
+					<section>
+						<a href="https://dnng.engin.umich.edu" class="image">
+							<img src="./images/0_percentile_with_borders.jpg" alt="" data-position="top center"/></a>
+						<div class="content">
+							<div class="inner" style="margin-bottom: 10%;">
+								<h2>My Contributions:</h2>
+								<body>
+									I was the lead developer on the implementation of the HoloLens application through Unity.
+									My main goals of the summer included...</a>
+									<br />
+								</body>
+							</div>
+						</div>
+					</section>
+					<br/>
+					<div style="margin-left: 25px; margin-right: 25px;">
+						<h3>Example header:</h3>
+						<body>
+							Example body...</a>
+							<br />
+						</body>
+						<p></p>
+						<h3>Downloads:</h3>
+						<ul>
+							<li><a href="https://bencapano.itch.io/carrots-in-space">Itch.io</a></li>
+							<li><a href="https://drive.google.com/file/d/10TMVRtDXcqc5Gn1v1h0hcT0axma7k4ne/view?usp=share_link"> Windows </a></li>
+							<li><a href="https://drive.google.com/file/d/1vn92hNgYcn608h4w_ylSqTBFbOrLKZoN/view?usp=share_link"> Mac </a>
+								<br> Having trouble running mac build on your mac?
+									<a href="https://f002.backblazeb2.com/file/sharex-hN8T5vpN8wZGmmwU/2022/December/23/14/56/50/793/5bc797e8-0d8a-4612-9cda-0d4efe772b57/run_unity_games_on_mac.txt">
+										Mac Build Not Opening </a>
+									</li>
+						</ul>
+						<ul class="actions">
+							<li><a href="https://bencapano.itch.io/carrots-in-space" class="button">Learn more</a></li>
+						</ul>
+						<br/>
+					</div>
+				</section> -->
+
+				<!-- Carrots In Space -->
+					<section id="carrots" class="wrapper style2 spotlights">
 						<section>
 							<a href="https://bencapano.itch.io/carrots-in-space" class="image"><img src="./images/carrots_in_space_pfp.jpg" alt="" data-position="top center"/></a>
 							<div class="content">
@@ -109,8 +251,8 @@
 						</div>
 					</section>
 
-				<!-- Steven two -->
-				<section id="two" class="wrapper style2 spotlights">
+				<!-- The Legend of Zelda -->
+				<section id="zelda" class="wrapper style2 spotlights">
 					<section>
 						<a href="https://stevenlech.github.io/zelda/stevenlech_web_build/" class="image"><img src="./images/zelda_pfp.jpg" alt="" data-position="top center"/></a>
 						<div class="content">
@@ -156,8 +298,8 @@
 					</div>
 				</section>
 
-				<!-- Steven Three -->
-				<section id="three" class="wrapper style2 spotlights">
+				<!-- Memory Adventure -->
+				<section id="memory" class="wrapper style2 spotlights">
 					<section>
 						<a href="https://stevenlech.github.io/memory_adventure/p2_gold_web/" class="image"><img src="images/mem_adventure_bird_eye.jpg" alt="" data-position="top center"/></a>
 						<div class="content">
@@ -204,12 +346,19 @@
 			<footer id="footer" class="wrapper style1-alt">
 
 				<div>
-					<ul class="menu" style="margin-left: 2%;">
-						<li>&copy; Untitled. All rights reserved.</li>
+					<ul class="menu" style="margin-left: 2%; font-size: 16px;">
+						<!-- <li>&copy; Untitled. All rights reserved.</li> -->
                         <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                         <li>Steven Lechtner</li>
-                        <li>Email: <a href="mailto:stvnlech@umich.edu">stvnlech@umich.edu</a></li>
-                        <li>Call: <a href="tel:734-478-1358">734-478-1358</a></li>
+						<li>1839 Cranberry Court - Ann Arbor, MI 48013</li>
+                        <li>
+							<i class="fa fa-envelope" style="font-size:20px"></i>
+							<a href="mailto:stvnlech@umich.edu">stvnlech@umich.edu</a>
+						</li>
+						<li>
+							<i class="fa fa-phone"></i>
+							<a href="tel:734-478-1358">734-478-1358</a>
+						</li>
 					</ul>
 				</div>
 			</footer>
